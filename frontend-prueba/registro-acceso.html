@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio de sesión</title>
+    <title>Registro</title>
     <!--Uso de Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Fuentes de GoogleFonts -->
@@ -104,13 +104,24 @@
     <!-- sección del login -->
     <div class="contenedor-login">
         <form class="formulario">
-            <div class="titulo-iniciar-sesion mb-4">Iniciar sesión</div>
+            <div class="titulo-iniciar-sesion mb-4">Regístrese en DyCODE</div>
+            <div>
+                <div class="row">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <input class="form-control mb-2" type="text" placeholder="Nombre">
+                  </div>
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <input class="form-control mb-2" type="text" placeholder="Apellido">
+                  </div>
+                </div>
+              </div>
             <input class="form-control mb-2" type="text" placeholder="Correo electrónico">
-            <input class="form-control mb-3" type="text" placeholder="Contraseña">
-            <div class="forgot">
-                <a href="" style="color: #FC5C7D;">¿Olvidó su constraseña?</a>
-            </div><br>
-            <button id="btn-entrar" class="form-control mb-3">Entrar</button>
+            <input class="form-control mb-3" type="password" placeholder="Contraseña">
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
+                <label class="form-check-label" for="exampleCheck1" style="color: #FC5C7D;">Acepto todos los términos y condiciones</label>
+              </div>
+            <button id="btn-entrar" class="form-control mb-3">Registrarme</button>
         </form>
     </div>
 
