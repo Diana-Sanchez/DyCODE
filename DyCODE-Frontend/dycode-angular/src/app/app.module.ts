@@ -10,6 +10,10 @@ import { LoginComponent } from './acceso/login/login.component';
 import { RegistroComponent } from './acceso/registro/registro.component';
 import { AppAccesoComponent } from './app-acceso/app-acceso.component';
 import { LandingComponent } from './landing/landing.component';
+import { AppProyectosComponent } from './app-proyectos/app-proyectos.component';
+import { HeaderComponent } from './proyectos/header/header.component';
+import { SidebarComponent } from './proyectos/sidebar/sidebar.component';
+import { TodosComponent } from './proyectos/todos/todos.component';
 
 
 @NgModule({
@@ -22,6 +26,10 @@ import { LandingComponent } from './landing/landing.component';
     RegistroComponent,
     AppAccesoComponent,
     LandingComponent,
+    AppProyectosComponent,
+    HeaderComponent,
+    SidebarComponent,
+    TodosComponent,
   
   ],
   imports: [
