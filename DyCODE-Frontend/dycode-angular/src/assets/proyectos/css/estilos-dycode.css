@@ -1,0 +1,50 @@
+.icono-responsive{
+    color: gray !important;
+}
+.usuario-dycode{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 100 !important;
+}
+.usuario-dycode:hover{
+    color: #212941;
+}
+#edit-perfil{
+    color:white;
+    font-weight: 100 !important;
+}
+#edit-perfil:hover{
+    color: #212941
+}
+
+#cerrar-perfil{
+    color:white;
+    font-weight: 100 !important;
+}
+#cerrar-perfil:hover{
+    color: #212941
+}
+#proyecto-destacado{
+    color:white;
+    font-weight: 100 !important;
+}
+#proyecto-destacado:hover{
+    color: #212941
+}
+#proyecto-reciente{
+    color:white;
+    font-weight: 100 !important;
+}
+#proyecto-reciente:hover{
+    color: #212941
+}
+#proyecto-papelera{
+    color:white;
+    font-weight: 100 !important;
+}
+#proyecto-papelera:hover{
+    color: #212941
+}
+
+
