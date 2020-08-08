@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './acceso/inicio/inicio.component';
@@ -14,6 +13,7 @@ import { AppProyectosComponent } from './app-proyectos/app-proyectos.component';
 import { HeaderComponent } from './proyectos/header/header.component';
 import { SidebarComponent } from './proyectos/sidebar/sidebar.component';
 import { TodosComponent } from './proyectos/todos/todos.component';
+import { AceEditorModule } from 'ng2-ace-editor';
 
 
 @NgModule({
@@ -34,7 +34,8 @@ import { TodosComponent } from './proyectos/todos/todos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AceEditorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
