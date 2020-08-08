@@ -9,6 +9,7 @@ import { FooterComponent } from './acceso/footer/footer.component';
 import { LoginComponent } from './acceso/login/login.component';
 import { RegistroComponent } from './acceso/registro/registro.component';
 import { AppAccesoComponent } from './app-acceso/app-acceso.component';
+import { LandingComponent } from './landing/landing.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { AppAccesoComponent } from './app-acceso/app-acceso.component';
     LoginComponent,
     RegistroComponent,
     AppAccesoComponent,
+    LandingComponent,
   
   ],
   imports: [

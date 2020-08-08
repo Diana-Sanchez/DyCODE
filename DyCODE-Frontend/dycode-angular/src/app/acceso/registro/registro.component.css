@@ -1,0 +1,45 @@
+.btn-inicio:hover{
+  background-color: #0ae3c8;
+  color: #243139;
+}
+.contenedor-login{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #f9f9f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formulario{
+  width: 40%;
+  background-color: white;
+  padding: 3% 2% 3% 2%;
+  border-width: 1px;
+  -webkit-box-shadow: 0.5px 0.5px 2px 0px rgba(5,5,5,1);
+  -moz-box-shadow: 0.5px 0.5px 2px 0px rgba(5,5,5,1);
+  box-shadow: 0.5px 0.5px 2px 0px rgba(5,5,5,1);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: black;
+  font-weight: 600;
+}
+.titulo-iniciar-sesion{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
+  text-align: center;
+  color: #463967;
+}
+.forgot{
+  float: right;
+    
+}
+#btn-entrar{
+  margin-top: 2%;
+  background: linear-gradient(to right, #463967, #0ae3c8);
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+}
+#btn-entrar:hover{
+  background: linear-gradient(to right, #392f52, #0acab4);
+}

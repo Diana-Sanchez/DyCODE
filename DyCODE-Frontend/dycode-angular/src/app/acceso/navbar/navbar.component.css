@@ -1,0 +1,19 @@
+.navbar-light{
+    background-color: #243139 !important;
+}
+.btn-inicio{
+    padding: 4px 15px 4px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #0ae3c8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0ae3c8;
+}
+.btn-inicio:hover{
+    background-color: #0ae3c8;
+    color: #243139;
+}
