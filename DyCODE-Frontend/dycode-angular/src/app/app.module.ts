@@ -14,6 +14,9 @@ import { HeaderComponent } from './proyectos/header/header.component';
 import { SidebarComponent } from './proyectos/sidebar/sidebar.component';
 import { TodosComponent } from './proyectos/todos/todos.component';
 import { AceEditorModule } from 'ng2-ace-editor';
+import { PapeleraComponent } from './proyectos/papelera/papelera.component';
+import { DestacadosComponent } from './proyectos/destacados/destacados.component';
+import { RecientesComponent } from './proyectos/recientes/recientes.component';
 
 
 @NgModule({
@@ -30,6 +33,9 @@ import { AceEditorModule } from 'ng2-ace-editor';
     HeaderComponent,
     SidebarComponent,
     TodosComponent,
+    PapeleraComponent,
+    DestacadosComponent,
+    RecientesComponent,
   
   ],
   imports: [
