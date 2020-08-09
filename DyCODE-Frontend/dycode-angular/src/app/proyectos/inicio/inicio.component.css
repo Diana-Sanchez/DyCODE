@@ -24,7 +24,7 @@
     
 }
 .verdadero{
-    border: solid 2px #0ae3c8 ;
+    border: solid 2px #463967;
     border-radius: 5px;
 }
 .cont-acciones{
@@ -66,5 +66,32 @@
 }
 .btn-nuevo:hover{
     background-color: #FC5C7D;
+    color: white;
+}
+.titulo-nuevo{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.7em;
+    text-align: center;
+}
+.btn-guardar{
+    border:none;
+    border-radius: 5px;
+    border: solid 1px #FC5C7D;
+    color: #FC5C7D;
+    padding: 2% 3% 2% 3%;
+}
+.btn-guardar:hover{
+    background-color: #FC5C7D;
+    color: white;
+}
+.btn-cerrar{
+    border:none;
+    border-radius: 5px;
+    border: solid 1px #463967;
+    color: #463967;
+    padding: 2% 3% 2% 3%;
+}
+.btn-cerrar:hover{
+    background-color: #463967;
     color: white;
 }
