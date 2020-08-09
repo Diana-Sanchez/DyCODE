@@ -6,12 +6,13 @@ import { RegistroComponent } from './acceso/registro/registro.component';
 import { LoginComponent } from './acceso/login/login.component';
 import { LandingComponent } from './landing/landing.component';
 import { AppProyectosComponent } from './app-proyectos/app-proyectos.component';
+import { InicioComponent } from './proyectos/inicio/inicio.component';
 
 
 const routes: Routes = [
   { path: '', component: LandingComponent },
   { path: 'acceso', component: AppAccesoComponent, children: [{ path:'login', component: LoginComponent }, { path: 'registro', component: RegistroComponent }] },
-  { path: 'dycode', component: AppProyectosComponent, children: [{path:'', component: TodosComponent }]}
+  { path: 'dycode', component: AppProyectosComponent, children: [{path:'', component: InicioComponent }]}
 ];
 
 @NgModule({
