@@ -6,9 +6,10 @@
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 100 !important;
+    margin-left: 4px;
 }
 .usuario-dycode:hover{
-    color: #212941;
+    color: #243139;
 }
 #edit-perfil{
     color:white;
@@ -46,6 +47,13 @@
 #proyecto-papelera:hover{
     color: #212941
 }
+#proyecto-todos{
+    color:white;
+    font-weight: 100 !important;
+}
+#proyecto-todos:hover{
+    color: #212941
+}
 .icono-cuenta{
     margin-right:5px;
     color: #463967;
@@ -75,4 +83,11 @@
 }
 .btn-ver-perfil:hover{
   background: linear-gradient(to right, #392f52, #0acab4);
+}
+.icono-sidebar{
+    color: white !important;
+}
+.icono-proyecto{
+    margin-right: 5px;
+    font-size: 16px
 }
