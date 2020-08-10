@@ -19,6 +19,7 @@ import { DestacadosComponent } from './proyectos/destacados/destacados.component
 import { RecientesComponent } from './proyectos/recientes/recientes.component';
 import { EdicionComponent } from './usuarios/edicion/edicion.component';
 import { VerComponent } from './usuarios/ver/ver.component';
+import { SnippetsComponent } from './snippets/snippets/snippets.component';
 
 
 @NgModule({
@@ -40,6 +41,7 @@ import { VerComponent } from './usuarios/ver/ver.component';
     RecientesComponent,
     EdicionComponent,
     VerComponent,
+    SnippetsComponent,
   
   ],
   imports: [
