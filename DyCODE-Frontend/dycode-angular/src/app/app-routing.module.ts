@@ -11,6 +11,7 @@ import { DestacadosComponent } from './proyectos/destacados/destacados.component
 import { PapeleraComponent } from './proyectos/papelera/papelera.component';
 import { RecientesComponent } from './proyectos/recientes/recientes.component';
 import { TodosComponent } from './proyectos/todos/todos.component';
+import { EdicionComponent } from './usuarios/edicion/edicion.component';
 
 
 const routes: Routes = [
@@ -24,7 +25,8 @@ const routes: Routes = [
     { path:'todos', component: InicioComponent}, 
     { path:'papelera', component: PapeleraComponent}, 
     { path:'recientes', component: RecientesComponent},
-    { path:'edicion', component: TodosComponent}]}
+    { path:'edicion', component: TodosComponent},
+      { path:'usuarios-edicion', component: EdicionComponent }]}
 ];
 
 @NgModule({

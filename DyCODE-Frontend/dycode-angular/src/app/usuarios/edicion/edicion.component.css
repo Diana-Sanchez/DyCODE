@@ -1,0 +1,38 @@
+.formulario{
+    width: 100%;
+    background-color: white;
+    padding: 3% 2% 3% 2%;
+    border-width: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+.dimension{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.titulo-iniciar-sesion{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7em;
+    text-align: center;
+    color: #463967;
+}
+.forgot{
+    float: right;
+    
+}
+#btn-entrar{
+    margin-top: 3%;
+    background-color: #463967;
+    border: solid 1px #463967;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 1% 5% 1% 5%;
+}
+#btn-entrar:hover{
+    background: linear-gradient(to right, #392f52, #0acab4);
+}

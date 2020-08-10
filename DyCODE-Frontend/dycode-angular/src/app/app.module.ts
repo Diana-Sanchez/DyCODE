@@ -17,6 +17,8 @@ import { AceEditorModule } from 'ng2-ace-editor';
 import { PapeleraComponent } from './proyectos/papelera/papelera.component';
 import { DestacadosComponent } from './proyectos/destacados/destacados.component';
 import { RecientesComponent } from './proyectos/recientes/recientes.component';
+import { EdicionComponent } from './usuarios/edicion/edicion.component';
+import { VerComponent } from './usuarios/ver/ver.component';
 
 
 @NgModule({
@@ -36,6 +38,8 @@ import { RecientesComponent } from './proyectos/recientes/recientes.component';
     PapeleraComponent,
     DestacadosComponent,
     RecientesComponent,
+    EdicionComponent,
+    VerComponent,
   
   ],
   imports: [
