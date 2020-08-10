@@ -69,8 +69,8 @@
     color: white;
 }
 .titulo-nuevo{
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 1.7em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
     text-align: center;
 }
 .btn-guardar{
@@ -78,7 +78,8 @@
     border-radius: 5px;
     border: solid 1px #FC5C7D;
     color: #FC5C7D;
-    padding: 2% 3% 2% 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .btn-guardar:hover{
     background-color: #FC5C7D;
@@ -89,9 +90,16 @@
     border-radius: 5px;
     border: solid 1px #463967;
     color: #463967;
-    padding: 2% 3% 2% 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .btn-cerrar:hover{
     background-color: #463967;
     color: white;
+}
+#advertencia-papelera{
+    background: linear-gradient(to right, #46396790, #0ae3ca80) !important;
+}
+#nuevo-proyecto{
+    background: linear-gradient(to right, #46396790, #0ae3ca80) !important;
 }
