@@ -2,10 +2,14 @@
     padding: 3%
 }
 .titulo{
-    float: left;
     font-size: 2em;
     color: #463967;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    border-left: 5px solid #FC5C7D;
+    border-radius: 5px;
 }
 .icono-acciones{
     margin-left: 5px;
