@@ -1,1 +1,125 @@
-<p>papelera works!</p>
+<div class="todos">
+    <div class="titulo mb-3">
+        Papelera de reciclaje
+    </div>
+    <div class="input-group mb-4 mt-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+        </div>
+        <input type="text" class="form-control" placeholder="Buscar proyecto" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
+            <div class="verdadero">
+                <div class="acciones">
+                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#eliminar"><i class="icono-acciones fas fa-minus-circle"></i></a></div>
+                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#eliminar"><i class="icono-acciones fas fa-upload"></i></a></div>
+                </div>
+                <div class="carpeta mt-3">
+                    <div class="folder">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <div class="nombre-folder mt-2">
+                        Proyecto eliminado 1
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
+            <div class="verdadero">
+                <div class="acciones">
+                    
+                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#eliminar"><i class="icono-acciones fas fa-minus-circle"></i></a></div>
+                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#eliminar"><i class="icono-acciones fas fa-upload"></i></a></div>
+                </div>
+                <div class="carpeta mt-3">
+                    <div class="folder">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <div class="nombre-folder mt-2">
+                        Proyecto eliminado 2
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
+            <div class="verdadero">
+                <div class="acciones">
+                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#eliminar"><i class="icono-acciones fas fa-minus-circle"></i></a></div>
+                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#eliminar"><i class="icono-acciones fas fa-upload"></i></a></div>
+                </div>
+                <div class="carpeta mt-3">
+                    <div class="folder">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <div class="nombre-folder mt-2">
+                        Proyecto eliminado 3
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
+            <div class="verdadero">
+                <div class="acciones">
+                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#eliminar"><i class="icono-acciones fas fa-minus-circle"></i></a></div>
+                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#eliminar"><i class="icono-acciones fas fa-upload"></i></a></div>
+                </div>
+                <div class="carpeta mt-3">
+                    <div class="folder">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <div class="nombre-folder mt-2">
+                        Proyecto eliminado 4
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
+            <div class="verdadero">
+                <div class="acciones">
+                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#eliminar"><i class="icono-acciones fas fa-minus-circle"></i></a></div>   
+                </div>
+                <div class="carpeta mt-3">
+                    <div class="folder">
+                        <i class="fas fa-folder-open"></i>
+                    </div>
+                    <div class="nombre-folder mt-2">
+                        Proyecto eliminado 5
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+
+  <!-- Ventana modal para borrar definitivamente un proyecto -->
+
+  <div class="modal fade" id="eliminar" tabindex="-1" aria-labelledby="eliminarLabel" aria-hidden="true">
+    <div class="modal-dialog modal-md modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+            <div class="logo">
+                <img src="../../../assets/img/dycode-light.png" alt="">
+            </div>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body"> 
+           <h5 class="titulo-nuevo mb-4">Eliminar proyecto</h5>
+           <div class="advertencia">
+               ¿Estás seguro de eliminar definitivamente este proyecto?
+           </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-cerrar" data-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn-guardar">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
