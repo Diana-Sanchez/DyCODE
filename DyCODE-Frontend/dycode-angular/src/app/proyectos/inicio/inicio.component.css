@@ -24,7 +24,7 @@
     
 }
 .verdadero{
-    border: solid 2px #463967;
+    border: solid 2px #706995;
     border-radius: 5px;
 }
 .cont-acciones{
@@ -38,17 +38,16 @@
     padding-top: 5px;
     width: 100%;
     height: 30px;
-    background-color: #463967;
+    background-color: #706995;
 }
 .folder{
     text-align: center;
     font-size: 2em;
-    color: #463967;
+    color: #706995;
 }
 .nombre-folder{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    font-weight: 500;
     text-align: center;
     margin-bottom: 4%;
 }
