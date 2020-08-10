@@ -1,19 +1,24 @@
-#container{
-    height: 100%;
-    width: auto;
-    white-space: nowrap;
-    overflow: hidden;
-    position: relative;
+.btn-nuevo{
+    background-color: transparent;
+    border: none;
+    border: solid 1px #FC5C7D;
+    padding: 1% 5% 1% 5%;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    color: #FC5C7D;
 }
-#hmtleditor{
-    height: 100%;
-    min-height: 50vh;
-    width: 33%;
-    display: inline-block;
+.btn-nuevo:hover{
+    background-color: #FC5C7D;
+    color: white;
 }
-#result{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 50%;
+.titulo{
+    font-size: 2em;
+    color: #463967;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 3%;
+    border-left: 5px solid #FC5C7D;
+    border-radius: 5px;
 }
