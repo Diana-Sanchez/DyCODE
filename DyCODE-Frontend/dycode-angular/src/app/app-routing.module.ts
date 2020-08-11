@@ -18,6 +18,7 @@ import { SnippetsComponent } from './snippets/snippets/snippets.component';
 
 const routes: Routes = [
   { path: '', component: LandingComponent },
+  { path:'dycode', component: LandingComponent },
   { path: 'acceso', component: AppAccesoComponent, children: [
     { path:'login', component: LoginComponent }, 
     { path: 'registro', component: RegistroComponent }] },
