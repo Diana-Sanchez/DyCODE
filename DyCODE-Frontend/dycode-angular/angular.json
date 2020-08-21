@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dycode-angular"
+    }
+  },
+  "defaultProject": "dycode-angular",
+  "cli": {
+    "analytics": "0a2fb49f-66ed-4435-ab9b-538b2c2be37d"
+  }
 }

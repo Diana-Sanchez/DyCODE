@@ -7,9 +7,7 @@ import { LoginComponent } from './acceso/login/login.component';
 import { LandingComponent } from './landing/landing.component';
 import { AppProyectosComponent } from './app-proyectos/app-proyectos.component';
 import { InicioComponent } from './proyectos/inicio/inicio.component';
-import { DestacadosComponent } from './proyectos/destacados/destacados.component';
 import { PapeleraComponent } from './proyectos/papelera/papelera.component';
-import { RecientesComponent } from './proyectos/recientes/recientes.component';
 import { TodosComponent } from './proyectos/todos/todos.component';
 import { EdicionComponent } from './usuarios/edicion/edicion.component';
 import { SnippetsComponent } from './snippets/snippets/snippets.component';
@@ -24,10 +22,8 @@ const routes: Routes = [
     { path: 'registro', component: RegistroComponent }] },
   { path: 'proyectos', component: AppProyectosComponent, children: [
     { path:'', component: InicioComponent},
-    { path:'destacados', component: DestacadosComponent}, 
-    { path:'todos', component: InicioComponent}, 
+    { path:'todos', component: InicioComponent, children:[{path:'edicion', component: TodosComponent}]}, 
     { path:'papelera', component: PapeleraComponent}, 
-    { path:'recientes', component: RecientesComponent},
     { path:'edicion', component: TodosComponent},
     { path:'usuarios-edicion', component: EdicionComponent },
   { path: 'snippets', component: SnippetsComponent}]}
