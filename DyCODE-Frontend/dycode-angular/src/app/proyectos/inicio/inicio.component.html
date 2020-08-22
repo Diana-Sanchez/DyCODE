@@ -1,165 +1,115 @@
 <div class="todos">
     <div class="titulo">
-        Todos mis proyectos
+        Proyecto #1
     </div>
     <div class="nuevo-proyecto">
-        <button class="btn-nuevo"  data-toggle="modal" data-target="#nuevo-proyecto">Nuevo proyecto</button>
+      <button class="btn-nuevo"  data-toggle="modal" data-target="#nuevo-proyecto">Estructurar</button>
     </div>
-    <div class="input-group mb-4 mt-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
-        </div>
-        <input type="text" class="form-control" placeholder="Buscar proyecto" aria-label="Username" aria-describedby="basic-addon1">
-      </div>
-    <div class="container-fluid">
-        <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
-            <div class="verdadero">
-                <div class="acciones">
-                    <div class="cont-acciones"><a href=""><i class="icono-acciones far fa-heart"></i></a></div>
-                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#advertencia-papelera" routerLink="/proyectos/edicion"><i class="icono-acciones far fa-trash-alt"></i></a></div>
-                    <div class="cont-acciones"><a href="" routerLink="/proyectos/edicion"><i class="icono-acciones fas fa-pencil-alt"></i></a></div>
-                </div>
-                <div class="carpeta mt-3">
-                    <div class="folder">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <div class="nombre-folder mt-2">
-                        Mi primer proyecto
-                    </div>
-                </div>
+      <div style="text-align: center; display: flex;justify-content: center;align-items: center;" *ngIf="regionVisible == informacion">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" style="border-radius: 10px">
+            <div class="carousel-item active">
+              <div class="alert alert-info" role="alert">
+                Agrega carpetas para almacenar tus archivos html
+              </div>
+              <img src="../../../assets/img/html.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <div class="alert alert-info" role="alert">
+                Agrega carpetas para almacenar tus archivos css
+              </div>
+              <img src="../../../assets/img/css.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <div class="alert alert-info" role="alert">
+                Agrega carpetas para almacenar tus archivos javascript
+              </div>
+              <img src="../../../assets/img/js.jpg" class="d-block w-100" alt="...">
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
-            <div class="verdadero">
-                <div class="acciones">
-                    <a href=""class="cont-acciones"><i class="icono-acciones fas fa-heart"></i></a>
-                    <a href=""class="cont-acciones" data-toggle="modal" data-target="#advertencia-papelera"><i class="icono-acciones far fa-trash-alt"></i></a>
-                    <a href=""class="cont-acciones" routerLink="/proyectos/edicion"><i class="icono-acciones fas fa-pencil-alt"></i></a>
-                </div>
-                <div class="carpeta mt-3">
-                    <div class="folder">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <div class="nombre-folder mt-2">
-                        Login empresa Sports
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
-            <div class="verdadero">
-                <div class="acciones">
-                    <div class="cont-acciones"><a href=""><i class="icono-acciones far fa-heart"></i></a></div>
-                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#advertencia-papelera"><i class="icono-acciones far fa-trash-alt"></i></a></div>
-                    <div class="cont-acciones"><a href="" routerLink="/proyectos/edicion"><i class="icono-acciones fas fa-pencil-alt"></i></a></div>
-                </div>
-                <div class="carpeta mt-3">
-                    <div class="folder">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <div class="nombre-folder mt-2">
-                        Landin page
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
-            <div class="verdadero">
-                <div class="acciones">
-                    <div class="cont-acciones"><a href=""><i class="icono-acciones fas fa-heart"></i></a></div>
-                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#advertencia-papelera"><i class="icono-acciones far fa-trash-alt"></i></a></div>
-                    <div class="cont-acciones"><a href="" routerLink="/proyectos/edicion"><i class="icono-acciones fas fa-pencil-alt"></i></a></div>
-                </div>
-                <div class="carpeta mt-3">
-                    <div class="folder">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <div class="nombre-folder mt-2">
-                        Landin page
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
-            <div class="verdadero">
-                <div class="acciones">
-                    <div class="cont-acciones"><a href=""><i class="icono-acciones far fa-heart"></i></a></div>
-                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#advertencia-papelera"><i class="icono-acciones far fa-trash-alt"></i></a></div>
-                    <div class="cont-acciones"><a href="" routerLink="/proyectos/edicion"><i class="icono-acciones fas fa-pencil-alt"></i></a></div>
-                </div>
-                <div class="carpeta mt-3">
-                    <div class="folder">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <div class="nombre-folder mt-2">
-                        Landin page
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
-            <div class="verdadero">
-                <div class="acciones">
-                    <div class="cont-acciones"><a href=""><i class="icono-acciones fas fa-heart"></i></a></div>
-                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#advertencia-papelera"><i class="icono-acciones far fa-trash-alt"></i></a></div>
-                    <div class="cont-acciones"><a href="" routerLink="/proyectos/edicion"><i class="icono-acciones fas fa-pencil-alt"></i></a></div>
-                </div>
-                <div class="carpeta mt-3">
-                    <div class="folder">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <div class="nombre-folder mt-2">
-                        Landin page
-                    </div>
-                </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 mb-2 contenido-proyecto">
-            <div class="verdadero">
-                <div class="acciones">
-                    <div class="cont-acciones"><a href=""><i class="icono-acciones fas fa-heart"></i></a></div>
-                    <div class="cont-acciones"><a href="" data-toggle="modal" data-target="#advertencia-papelera"><i class="icono-acciones far fa-trash-alt"></i></a></div>
-                    <div class="cont-acciones"><a href="" routerLink="/proyectos/edicion"><i class="icono-acciones fas fa-pencil-alt"></i></a></div>   
-                </div>
-                <div class="carpeta mt-3">
-                    <div class="folder">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <div class="nombre-folder mt-2">
-                        Proyecto de clase
-                    </div>
-                </div>
-            </div>
-          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Archivos</th>
+            <th scope="col">Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><i class="fas fa-folder-open carpeta"></i>HTML</td>
+            <td>
+              <i class="fas fa-file-alt carpeta"></i>Archivo 1 <br>
+              <i class="fas fa-file-alt carpeta"></i>Archivo de prueba
+            </td>
+            <td><button class="btn btn-primary btn-accion">Editar</button><button class="btn btn-danger btn-accion">Eliminar</button></td>
+          </tr>
+        </tbody>
+      </table>
+
 </div>
 
 <!-- Ventana modal para la creación de un nuevo proyecto -->
 
 <div class="modal fade" id="nuevo-proyecto" tabindex="-1" aria-labelledby="nuevo-proyectoLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content nuevo-fondo">
         <div class="modal-header">
             <div class="logo">
-                <img src="../../../assets/img/dycode-light.png" alt="">
+                <img src="../../../assets/img/dycode-dark.png" alt="">
             </div>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body"> 
-           <h5 class="titulo-nuevo mb-4">Nuevo proyecto</h5>
-          <div class="alert alert-warning">Mejora tu plan y crea la cantidad de proyectos que desees</div>
-          <form>
-              <input class="form-control mb-3" type="text" placeholder="Nombre del proyecto">
-              <textarea class="form-control mb-3" placeholder="Breve descripción"></textarea>
-          </form>
+          <div class="container mt-5">
+            <div class="row">
+              <div class="col-sm">
+                  <!--Contenedor con el editor tipo html-->
+                  <div class="alert alert-secondary" role="alert">
+                    HTML
+                  </div>
+                  <div id="editor"></div>
+              </div>
+              <div class="col-sm">
+                  <!--Contenedor con el editor tipo css-->
+                  <div class="alert alert-secondary" role="alert">
+                    CSS
+                  </div>
+                  <div id="editor2"></div>
+              </div>
+              <div class="col-sm">
+                <!--Contenedor con el editor tipo javascript-->
+                <div class="alert alert-secondary" role="alert">
+                  JAVASCRIPT
+                </div>
+                <div id="editor3"></div>
+              </div>
+            </div>
+          </div>
+          <!--Etiqueta de renderización-->
+          <button class="btn-guardar mt-2" onclick="update()" style="float: right;">Renderizar cambios</button>
+          <iframe id="iframe" frameborder="0" style="background-color: #424654"></iframe>  
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn-cerrar" data-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn-guardar">Guardar</button>
+          <button type="button" class="btn-guardar" data-dismiss="modal">Guardar cambios</button>
         </div>
       </div>
     </div>

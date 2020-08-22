@@ -20,7 +20,6 @@ import { PapeleraComponent } from './proyectos/papelera/papelera.component';
 import { EdicionComponent } from './usuarios/edicion/edicion.component';
 import { VerComponent } from './usuarios/ver/ver.component';
 import { SnippetsComponent } from './snippets/snippets/snippets.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -47,7 +46,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     AppRoutingModule,
     AceEditorModule,
-    NgbModule
+    
   ],
   providers: [
     CargarScriptsService
