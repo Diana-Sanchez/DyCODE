@@ -5,41 +5,25 @@
        <input type="text" class="form-control" value="Mi primer proyecto">
 </div>
 
-<div class="container">
+<div class="container mt-5">
   <div class="row">
-    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">
-       <div class="alert alert-info" role="alert">
-              HTML
-            </div>
-         <ace-editor  #editor style="height:200px"></ace-editor>
+    <div class="col-sm">
+        <!--Contenedor con el editor tipo html-->
+        <div id="editor"></div>
     </div>
-    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">
-       <div class="alert alert-info" role="alert">
-              CSS
-            </div>
-         <ace-editor  #editor2 style="height:200px"></ace-editor>
+    <div class="col-sm">
+        <!--Contenedor con el editor tipo css-->
+        <div id="editor2"></div>
     </div>
-    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 mb-3">
-       <div class="alert alert-info" role="alert">
-             JS
-            </div>
-         <ace-editor  #editor3 style="height:200px"></ace-editor>
+    <div class="col-sm">
+      <!--Contenedor con el editor tipo javascript-->
+      <div id="editor3"></div>
     </div>
   </div>
 </div>
-<div class="nuevo-proyecto mb-3">
-       <button class="btn-nuevo"  data-toggle="modal" data-target="#nuevo-proyecto">Guardar cambios</button>
-   </div>
-<div class="container">
-  <div class="row">
-    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-       <div class="alert alert-success" role="alert">
-              Renderización de los archivos
-            </div>
-       <div style="width: 100%; height: 200px; background-color:#D1ECF1"></div>
-    </div>
-  </div>
-</div>
+<!--Etiqueta de renderización-->
+<button class="btn btn-primary" onclick="update()">Guardar cambios</button>
+<iframe id="iframe" frameborder="0" style="background-color: cornflowerblue;"></iframe>  
 
 
 
