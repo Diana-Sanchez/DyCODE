@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+//Servicios
+import { CargarScriptsService } from "./cargar-scripts.service";
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from './acceso/inicio/inicio.component';
@@ -47,7 +49,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AceEditorModule,
     NgbModule
   ],
-  providers: [],
+  providers: [
+    CargarScriptsService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
