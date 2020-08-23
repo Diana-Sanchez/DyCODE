@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CargarScriptsService } from 'src/app/cargar-scripts.service';
+import { ProyectosService } from 'src/app/services/proyectos.service';
 
 @Component({
   selector: 'app-inicio',
@@ -8,6 +9,7 @@ import { CargarScriptsService } from 'src/app/cargar-scripts.service';
 })
 export class InicioComponent implements OnInit {
 
+  proyectos:any = [];
   regionVisible:string = '';
 
   verTabla(){
@@ -18,11 +20,12 @@ export class InicioComponent implements OnInit {
     this.regionVisible = 'informacion';
   }
 
-  constructor(private _cargaScripts:CargarScriptsService) { 
+  constructor(private _cargaScripts:CargarScriptsService, ) { 
     _cargaScripts.carga(["index/index"])
   }
 
   ngOnInit(): void {
   }
 
+  
 }

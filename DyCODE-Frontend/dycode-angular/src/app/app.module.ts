@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 //Servicios
 import { CargarScriptsService } from "./cargar-scripts.service";
 import { AppRoutingModule } from './app-routing.module';
@@ -46,6 +48,8 @@ import { SnippetsComponent } from './snippets/snippets/snippets.component';
     BrowserModule,
     AppRoutingModule,
     AceEditorModule,
+    HttpClientModule,
+    FormsModule
     
   ],
   providers: [

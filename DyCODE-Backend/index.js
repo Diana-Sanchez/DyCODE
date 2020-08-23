@@ -7,6 +7,7 @@ var database = require('./modules/database');
 var proyectosRouter = require('./routers/proyecto-routers');
 var carpetasRouter = require('./routers/carpeta-routers');
 var archivosRouter = require('./routers/archivo-routers');
+var usuariosRouter = require('./routers/usuario-routers');
 
 
 var app = express();
@@ -16,9 +17,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Definicipon de middlewares.
+app.use('/usuarios', usuariosRouter);
 app.use('/usuarios', proyectosRouter);
 app.use('/usuarios', carpetasRouter);
 app.use('/usuarios', archivosRouter);
+
 
 
 app.listen(8888, ()=>{
