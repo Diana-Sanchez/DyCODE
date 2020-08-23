@@ -9,23 +9,20 @@ import { ProyectosService } from 'src/app/services/proyectos.service';
 })
 export class InicioComponent implements OnInit {
 
-  proyectos:any = [];
-  regionVisible:string = '';
-
-  verTabla(){
-
-  };
-
-  verInformacion(){
-    this.regionVisible = 'informacion';
-  }
-
-  constructor(private _cargaScripts:CargarScriptsService, ) { 
-    _cargaScripts.carga(["index/index"])
-  }
-
   ngOnInit(): void {
   }
+  regionPregunta:string = 'hola'
+  regionVisible:string ='';
 
+  
+
+  proyectos:any = [];
+  
+
+  constructor(private _cargaScripts:CargarScriptsService, ) { 
+    _cargaScripts.carga(["index/controlador"])
+  }
+
+  
   
 }

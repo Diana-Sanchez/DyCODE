@@ -12,9 +12,9 @@ function update(){
 // Función para establecer los valores de los tres tipos de editores
 
 function setupEditor(){
-  // Valores para el editor tipo html.
+  // Configuración para el editor en el que se ingresará código html.
 window.editor = ace.edit("editor");
-  editor.setTheme("ace/theme/twilight");
+  editor.setTheme("ace/theme/dracula");
   editor.session.setMode("ace/mode/html");
   editor.setValue(`<!DOCTYPE html>
   <html>
@@ -23,13 +23,15 @@ window.editor = ace.edit("editor");
   <body>
   </body>  
   </html>`,1);
-  // Valores para el editor tipo css.
+  
+// Configuración para el editor en el que se ingresará código css.
 window.editor2 = ace.edit("editor2");
-    editor2.setTheme("ace/theme/twilight");
+    editor2.setTheme("ace/theme/dracula");
     editor2.session.setMode("ace/mode/css");  
-  // Valores para el editor tipo javaScript.
+  
+// Configuración para el editor en el que se ingresará código html.
 window.editor3 = ace.edit("editor3");
-    editor3.setTheme("ace/theme/twilight");
+    editor3.setTheme("ace/theme/dracula");
     editor3.session.setMode("ace/mode/javascript");
 
     
